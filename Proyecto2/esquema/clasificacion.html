@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="../esquema/sass/sprint2.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar fixed-top navbar-dark bg-dark">
+            <div class="container-fluid">
+                  <a class="nav-link" href="home.html">Home</a>
+                  <a class="nav-link" href="partidos.html">Partidos</a>
+                  <a class="nav-link" href="clasificacion.html">Clasificación</a>
+                  <a class="nav-link" href="estadisticas.html">Estadísticas</a>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </div>
+    <div class="fondo">
+        
+        <div class="clasificaciones">
+                <h3>Clasificación Total</h3>
+                <table class="table table-responsive-sm table-light table-hover">
+                        <tr class="table-primary">
+                            <th colspan="2">Posición</th>
+                            <th>Equipo</th>
+                            <th>PJ</th>
+                            <th>V</th>
+                            <th>E</th>
+                            <th>D</th>
+                            <th>GF</th>
+                            <th>GC</th>
+                            <th>DG</th>
+                            <th>PTS</th>
+                            <th>Últimos 5</th>
+                        </tr>
+                    <tbody id="clasificacion-total">
+                    </tbody>
+                </table>
+        </div>
+    </div>
+<footer>
+    <div class="footer">
+            <img src="../media/Barra-de-patrocinadores.jpg" alt="barra-patrocinadores">
+        <div class="politica">
+            <p>Copyright @ 2021 LaLiga</p>
+                <a href="#">Aviso Legal</a>
+                <a href="#">Politica de privacidad</a>
+                <a href="#">Política de cookies</a>
+        </div>
+    </div>
+</footer>
+
+    <script src="../esquema/clasificacion.js"></script>
+    <script src="../esquema/standings.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+
+</html>
