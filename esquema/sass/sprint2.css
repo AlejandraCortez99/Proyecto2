@@ -1,0 +1,127 @@
+* {
+  margin: auto;
+  padding: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container a {
+  color: #fffefe;
+  font-size: large;
+}
+
+.fondo-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: relative;
+}
+
+.fondo, .fondo h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bienvenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 100px;
+}
+
+h1, h3 {
+  color: white;
+}
+
+.escudos {
+  height: 24px;
+  width: auto;
+}
+
+.lastfive img {
+  height: 16px;
+  width: 16px;
+}
+
+.partidos, .clasificaciones {
+  margin-top: 90px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.leyenda {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(240, 237, 237, 0.802);
+}
+
+.leyenda p {
+  color: black;
+  margin: auto;
+  padding-left: 5px;
+}
+
+.footer {
+  margin-top: 50px;
+  background-color: #040411;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer img {
+  -webkit-filter: grayscale(12);
+          filter: grayscale(12);
+}
+
+.politica {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.politica a, p {
+  color: rgba(255, 255, 255, 0.665);
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 90px;
+}
+/*# sourceMappingURL=sprint2.css.map */

@@ -1,0 +1,81 @@
+* {
+    margin: auto;
+    padding:auto;
+    box-sizing: border-box;
+
+}
+.container a {
+    color: rgb(255, 254, 254);
+    font-size: large;
+}
+.fondo-home {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    
+}
+.fondo, .fondo h3 {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.bienvenido {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+}
+h1, h3 {
+    color:white;
+}
+
+.escudos {
+    height: 24px;
+    width: auto;
+}
+.lastfive img {
+    height: 16px;
+    width: 16px;
+
+}
+.partidos, .clasificaciones {
+    margin-top:90px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.leyenda {
+    display: flex;
+
+    background-color: rgba(240, 237, 237, 0.802);
+    p {
+        color: rgb(0, 0, 0);
+        margin: auto;
+        padding-left: 5px;
+    }
+}
+.footer {
+    margin-top: 50px;
+    background-color: rgb(4, 4, 17);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    img {
+        filter: grayscale(12);
+    }
+}
+.politica {
+    display: flex;
+    justify-content: space-around;
+}
+.politica a , p{
+    color: rgba(255, 255, 255, 0.665);
+    text-decoration: none;
+    display: flex;
+    padding: 0px 90px;
+    
+}
