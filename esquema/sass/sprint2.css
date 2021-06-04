@@ -50,7 +50,19 @@
 }
 
 h1, h3 {
-  color: white;
+  color: black;
+}
+
+.partidos {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
 }
 
 .escudos {
@@ -63,8 +75,8 @@ h1, h3 {
   width: 16px;
 }
 
-.partidos, .clasificaciones {
-  margin-top: 90px;
+.clasificaciones, .estadisticas {
+  margin-top: 70px;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -73,6 +85,10 @@ h1, h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.estadisticas h1 {
+  font-size: 25px;
 }
 
 .leyenda {
@@ -123,5 +139,24 @@ h1, h3 {
   display: -ms-flexbox;
   display: flex;
   padding: 0px 90px;
+}
+
+.contenedor-buscador {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 90px;
+  width: auto;
+}
+
+.radios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
 }
 /*# sourceMappingURL=sprint2.css.map */
